@@ -1,11 +1,7 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1>Hello World</h1>
+  <div id="app">
+    <router-link to="/">Accueil</router-link>
+    <router-link to="/concert/NewYork">Concerts</router-link>
+    <router-view></router-view>
+  </div>
 </template>
-
-<style scoped>
-
-</style>
