@@ -1,0 +1,197 @@
+[
+    {
+        "id" : "565MAD",
+        "title" : "Candlelight : 100 ans de Warner Bros",
+        "image" : "/data/images/CandleLightMadrid.avif",
+        "town" :  "Madrid",
+        "summary" : "Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en directo a lugares asombrosos como nunca antes se había visto en Madrid. Consigue ya tus entradas para celebrar el 100º Aniversario de Warner Bros. y descubre asombrosas películas, música y momentos icónicos de la biblioteca de Warner Bros. en el Ateneo de Madrid bajo el suave resplandor de la luz de las velas.",
+        "information" : [{
+            "place" : "Lugar : Ateneo de Madrid",
+            "duration" : "Duracion : 60 minutos aprox",
+            "age" : "Edad : a partir de 8 años. Los menores de 18 años deberán acudir acompañados por un adulto",
+            "accessibility" : "Accesibilidad : recinto habilitado para personas en silla de ruedas"
+            }],
+        "description" : [
+            "El Mago de Oz - Over the Rainbow (1939)",
+            "Casablanca - As Time Goes By (1942)",
+            "Cantando Bajo la Lluvia - Singin' in the Rain (1952)",
+            "Scooby-Doo - Tema Musical (1969)",
+            "Willy Wonka y la Fábrica de Chocolate - Pure Imagination (1971)",
+            "El Exorcista - Tema Musical (Tubular Bells) (1973)",
+            "Lluvia Púrpura - Purple Rain (1984)",
+            "Batman - Tema Principal (1989)",
+            "El Señor de los Anillos: La Comunidad del Anillo - Suite (2001)",
+            "Harry Potter y el Cáliz de Fuego - Hogwarts’ Anthem (2005)",
+            "Inception - Time (2010)",
+            "Wonder Woman - Suite (2017)",
+            "Ha Nacido una Estrella - Shallow (2018)",
+            "Friends - I’ll Be There for You (1995)"
+        ],
+
+        "date" : [
+            {"id": "date2023-12-10T19:00:00", "dayhour" : "2023-12-10T19:00:00"},
+            {"id": "date2023-12-10T21:00:00", "dayhour" : "2023-12-10T21:00:00"}
+        ]
+    },
+
+    {
+        "id" : "698MAD",
+        "title" : "Wah Madrid",
+        "image" : "/data/images/WahMadrid.avif",
+        "town" :  "Madrid",
+        "summary" : "El mayor espectáculo del mundo llega a Madrid para que disfrutes de una experiencia inmersiva, tanto gastronómica como show musical, que mezcla lo mejor de Las Vegas y Broadway con los mayores éxitos de la historia de la música. Disfrutarás de la mejor fiesta tras el show en el club más espectacular y sin moverte del sitio.",
+        "information" : [{
+            "place" : "Lugar : un lugar clandestino en IFEMA, Madrid (Pabellón 2)",
+            "duration" : "Duracion : 5h30 minutos aprox",
+            "age" : "Edad: mayores de 18 años para las sesiones de las 19:30 horas. Si adquieres entradas infantiles, deben estar acompañadas de, al menos, una entrada de adulto",
+            "accessibility" : "Accesibilidad: recinto accesible para PMR (personas con movilidad reducida)"
+            }],
+        "description" : "En un mundo distópico donde la música está prohibida surge WAH Madrid, el último reducto donde poder volver a vivirla... ¡Adéntrate en un espectáculo inédito en Europa! WAH combina lo mejor de los musicales, una gran historia y una espectacular puesta en escena y vestuario, con una gran experiencia musical inmersiva a través de los mayores éxitos de la historia de la música. Desde Beethoven hasta Michael Jackson, unidos por un mismo hilo conductor y a cargo de grandes voces y artistas. Todo ello aderezado con una gran experiencia gastronómica en la que degustarás, si quieres, cocina gourmet de todo el mundo a través de 12 estaciones. Forma parte del espectáculo… ¡Consigue tus entradas para WAH, el show musical y gastronómico en IFEMA Madrid! Solicita tu Uber y llega de la forma más sencilla al mayor show gastronómico y musical en IFEMA.",
+
+        "date" : [
+            {"id": "date2023-09-14T19:30:00", "dayhour" : "2023-09-14T19:30:00"},
+            {"id": "date2023-09-15T19:30:00", "dayhour" : "2023-09-15T19:30:00"},
+            {"id": "date2023-09-16T19:30:00", "dayhour" : "2023-09-16T19:30:00"},
+            {"id": "date2023-09-17T13:00:00", "dayhour" : "2023-09-17T13:00:00"}
+        ]
+    },
+
+    {
+        "id" : "245MAD",
+        "title" : "Ritmo Latino Fest",
+        "image" : "/data/images/RitmoLatinoFest.avif",
+        "town" :  "Madrid",
+        "summary" : "Ritmo Latino Fest regresa con su 4º edición. Vuelve la mayor fiesta latina en Madrid, donde disfrutarás de la mejor gastronomía, música en directo y el ambiente más fiestero en Autocine Madrid Fever el 9 de septiembre.",
+        "information" : [{
+            "place" : "Lugar : Autocine Madrid Fever",
+            "duration" : "Duración: 11 horas aprox",
+            "age" : "Edad : todas las edades. Los menores de 18 años deberán acudir acompañados por un adulto",
+            "accessibility" : "Accesibilidad: recinto accesible para personas con movilidad reducida"
+            }],
+        "description" : "¡Ven al Autocine Madrid Fever a vivir un festival latino único hasta el momento! Ritmo Latino Fest vuelve con fuerza en su 4º edición para ofrecerte un evento global en el que la música latina, la gastronomía y la cultura te harán vivir una experiencia 360º inolvidable. Empezarás el día con el ambiente más top, música y DJs en directo y los sabores más deliciosos gracias a los mejores platos latinoamericanos, desde arepas hasta burritos. Para finalizar, te dejarás llevar por el sonido actual del electrolatino y del reggaeton más potentes con DJs en directo. ¿Te vienes? ¡Consigue tus entradas para Ritmo Latino Fest 2023 en Autocine Madrid Fever!",
+
+        "date" : [
+            {"id": "date2023-09-09T13:00:00", "dayhour" : "2023-09-09T13:00:00"}
+        ]
+    },
+
+    {
+        "id" : "025NY",
+        "title" : "The Great Gatsby - Immersive Show",
+        "image" : "/data/images/GeatGatsby.avif",
+        "town" :  "New-York",
+        "summary" : "You are invited to one of Jay Gatsby's infamous parties, The Great Gatsby Immersive Show! Travel in time to the roaring 20s and spend the evening with Nick Carraway, Daisy and Tom Buchanan, Myrtle Wilson, and Jay Gatsby himself in this immersive experience.",
+        "information" : [{
+            "place" : "Location: Gatsby Mansion, Park Central Hotel New York, 870 7th Ave, New York, NY",
+            "duration" : " Duration: 2 hours and 30 minutes including an intermission",
+            "age" : "Age requirement: 14+. Anyone under the age of 18 must be accompanied by an adult",
+            "accessibility" : " Accessibility: the venue is ADA compliant"
+            }],
+        "description" : "Welcome to the hottest party in town! A world of red-hot rhythms, bootleg liquor, and pure jazz-age self-indulgence awaits. Spend the evening dancing and clinking glasses with Nick Carraway, Daisy and Tom Buchanan, Myrtle Wilson, and Jay Gatsby himself. As the champagne flows, all the drama unfolds. Dress to the nines and immerse yourself in this heart-racing adaptation of F. Scott Fitzgerald’s seminal tale. Step into the roaring twenties and get your tickets for The Great Gatsby Immersive Show in New York!",
+
+        "date" : [
+            {"id": "date2023-10-05T20:00:00", "dayhour" : "2023-10-05T20:00:00"},
+            {"id": "date2023-10-06T20:00:00", "dayhour" : "2023-10-06T20:00:00"},
+            {"id": "date2023-10-07T20:00:00", "dayhour" : "2023-10-07T20:00:00"},
+            {"id": "date2023-10-08T20:00:00", "dayhour" : "2023-10-08T20:00:00"}
+        ]
+    },
+
+    {
+        "id" : "586NY",
+        "title" : "Titanic : The Exhibition",
+        "image" : "/data/images/Titanic.avif",
+        "town" :  "New-York",
+        "summary" : "Titanic. The Exhibition is now open in NYC after a sold-out run in London, bringing with it a selection of personal artifacts never before seen in America that tell touching stories of the ship's passengers and crew",
+        "information" : [{
+            "place" : "Location: 526 6th Avenue, (Southeast Corner of 14th W. Street at 6th Avenue), 10011",
+            "duration" : "Duration: approx. 1 hour and 30 minutes",
+            "age" : "Age requirement: all ages are welcome. Children under 4 enter free of charge",
+            "accessibility" : "Accessibility: the exhibition is wheelchair accessible. Please keep in mind that no rentals will be available on site"
+            }],
+        "description" : "Titanic. The Exhibition NYC is far more than a display of historic items: it is a unique narrative experience, a tale of the people aboard history’s most legendary ship on its maiden and final journey. Travel back to 1912 through photographs, handwritten letters, wayward keepsakes, and other personal belongings telling countless stories about fates and heroic deeds on board. As you listen to survivor testimonies on your audio guide, you will have a chance to observe recreated interiors of natural size, witnessing the stark contrast between a lavish first-class suite and a humble third-class cabin. Past and present come together in this emotional journey, a trip through time that brings us closer to the myths, stories and glamor of the historic Titanic.",
+
+        "date" : [
+            {"id": "date2023-10-05T20:00:00", "dayhour" : "2023-10-05T20:00:00"},
+            {"id": "date2023-10-06T20:00:00", "dayhour" : "2023-10-06T20:00:00"},
+            {"id": "date2023-10-07T20:00:00", "dayhour" : "2023-10-07T20:00:00"},
+            {"id": "date2023-10-08T20:00:00", "dayhour" : "2023-10-08T20:00:00"}
+        ]
+    },
+
+    {
+        "id" : "1024NY",
+        "title" : "Ancient Rome : The Exhibition",
+        "image" : "/data/images/AncientRome.jpg",
+        "town" :  "New-York",
+        "summary" : "Explore the captivating world of Ancient Rome at this fascinating exhibition in New York. Immerse yourself in authentic artifacts and reconstructions, experiencing the triumphs and technological advancements of this legendary empire firsthand. Don’t miss out on this unique opportunity to learn and discover!",
+        "information" : [{
+            "place" : "Location: 378 Broadway, NYC (not West Broadway!)",
+            "duration" : "Duration: 20–50 minutes",
+            "age" : "Age requirement: all ages are welcome",
+            "accessibility" : "Accessibility: the venue is ADA compliant"
+            }],
+        "description" : "Titanic. The Exhibition NYC is far more than a display of historic items: it is a unique narrative experience, a tale of the people aboard history’s most legendary ship on its maiden and final journey. Travel back to 1912 through photographs, handwritten letters, wayward keepsakes, and other personal belongings telling countless stories about fates and heroic deeds on board. As you listen to survivor testimonies on your audio guide, you will have a chance to observe recreated interiors of natural size, witnessing the stark contrast between a lavish first-class suite and a humble third-class cabin. Past and present come together in this emotional journey, a trip through time that brings us closer to the myths, stories and glamor of the historic Titanic.",
+
+        "date" : [
+            {"id": "date2023-09-09T10:00:00", "dayhour" : "2023-10-05T10:00:00"}
+        ]
+    },
+
+    {
+        "id" : "5867PAR",
+        "title" : "La Nuit au Musée : une visite inédite du Musée Grévin",
+        "image" : "/data/images/NuitMusée.avif",
+        "town" :  "Paris",
+        "summary" : "Le musée Grévin fête cette année ses 140 ans en grande pompe car pour la première fois, Michael Jackson, le chameau de Napoléon, une célèbre girafe, le Père Fouras, Kylian Mbappé ou encore Thomas Pesquet vous donnent rendez-vous pour La Nuit au Musée. Entre jeux de lumières, comédiens et animations, viens rendre visite le temps d’une soirée au lieu le plus fréquenté des stars, à n’en pas douter !",
+        "information" : [{
+            "place" : "Lieu : Musée Grévin (Paris 9)",
+            "duration" : "Durée : 1h20",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accessible en fauteuil roulant"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+
+        "date" : [
+            {"id": "date2023-10-07T19:30:00", "dayhour" : "2023-10-07T19:30:00"},
+            {"id": "date2023-11-04T19:30:00", "dayhour" : "2023-11-04T19:30:00"}
+        ]
+    },
+
+    {
+        "id" : "4678PAR",
+        "title" : "L'Ecran Pop Cinéma-Karaoké : Grease",
+        "image" : "/data/images/EcranPop.avif",
+        "town" :  "Paris",
+        "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
+        "information" : [{
+            "place" : "Lieu : Le Grand Rex (Paris 2)",
+            "duration" : "Durée : 4h50 environ pour cette date spéciale ",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette date spéciale"
+            }],
+        "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
+        "date" : [
+            {"id": "date2023-09-15T18:00:00", "dayhour" : "2023-09-15T18:00:00"}
+        ]
+    },
+    
+    {
+        "id" : "7468PAR",
+        "title" : "The Empire Strips Back : la parodie burlesque",
+        "image" : "/data/images/EmpireStrips.avif",
+        "town" :  "Paris",
+        "summary" : "La célèbre parodie burlesque The Empire Strips Back débarque à Paris ! Ce spectacle à grand succès s’est produit à guichet fermé en Amérique, et propulse les personnages emblématiques de la science-fiction dans le monde du burlesque ! Entre danse et défilé, le tout costumé, ne passe surtout pas à côté du show le plus osé de la galaxie !",
+        "information" : [{
+            "place" : "Lieu : Théâtre du Gymnase Marie Bell, 38 Bd de Bonne Nouvelle (Paris 10)",
+            "duration" : "Durée : 1h45",
+            "age" : " Âge requis : 18 ans et plus",
+            "accessibility" : "Accessibilité : Non renseignée"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+        "date" : [
+            {"id": "date2023-11-12T15:00:00", "dayhour" : "2023-11-12T15:00:00"},
+            {"id": "date2023-11-12T20:00:00", "dayhour" : "2023-11-12T20:00:00"}
+        ]
+    }
+]
