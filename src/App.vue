@@ -1,7 +1,11 @@
+<script setup>
+import Header from "./components/Header.vue"
+</script>
+
+
 <template>
   <div id="app">
-    <router-link to="/">Accueil</router-link>
-    <router-link to="/concert/NewYork">Concerts</router-link>
+    <Header />
     <router-view></router-view>
   </div>
 </template>

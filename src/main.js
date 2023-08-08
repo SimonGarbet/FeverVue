@@ -3,7 +3,12 @@ import App from './App.vue'
 import * as VueRouter from 'vue-router'
 import Home from './pages/Home.vue'
 import Concert from './pages/Concert.vue'
-import ConcertTarget from './pages/ConcertTarget.vue'
+import Target from './pages/Target.vue'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+library.add(faChevronDown)
 
 const router = VueRouter.createRouter({
 history: VueRouter.createWebHistory(),
@@ -14,9 +19,9 @@ routes: [
     component: Home
     },
     {
-        path: '/concert/:id',
-    name: 'concertTarget',
-    component: ConcertTarget
+        path: '/concert/:town/:id',
+    name: 'Target',
+    component: Target
     },
     {
         path: '/concert/:town',
@@ -28,4 +33,5 @@ routes: [
 
 const app = createApp(App)
 app.use(router).mount('#app')
+app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('app')
