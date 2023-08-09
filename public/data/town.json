@@ -1,0 +1,43 @@
+[
+    {
+        "id" : "MAD",
+        "path" : "Madrid",
+        "title" : "Madrid",
+        "image" : "/data/images/town/MadridPicture.avif"
+    },
+
+    {
+        "id" : "NY",
+        "path" : "NewYork",
+        "title" : "New York",
+        "image" : "/data/images/town/NewYorkPicture.avif"
+    },
+
+    {
+        "id" : "PAR",
+        "path" : "Paris",
+        "title" : "Paris",
+        "image" : "/data/images/town/ParisPicture.avif"
+    },
+
+    {
+        "id" : "LON",
+        "path" : "London",
+        "title" : "Londres",
+        "image" : "/data/images/town/LondonPicture.avif"
+    },
+
+    {
+        "id" : "BCN",
+        "path" : "Barcelona",
+        "title" : "Barcelone",
+        "image" : "/data/images/town/BarcelonaPicture.jpg"
+    },
+
+    {
+        "id" : "LA",
+        "path" : "LosAngeles",
+        "title" : "Los Angeles",
+        "image" : "/data/images/town/LosAngelesPicture.avif"
+    }
+]
