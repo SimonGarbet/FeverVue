@@ -31,7 +31,6 @@ routes: [
   ]
 })
 
-const app = createApp(App)
-app.use(router).mount('#app')
-app.component('font-awesome-icon', FontAwesomeIcon)
-app.mount('app')
+const app = createApp(App);
+app.use(router).mount('#app');
+app.component("font-awesome-icon", FontAwesomeIcon);
