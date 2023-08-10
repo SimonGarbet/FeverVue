@@ -14,7 +14,7 @@ function emitOpenModal() {
 </script>
 
 <template>
-    <div>
+    <header>
 
       <nav>
         <div>
@@ -28,10 +28,17 @@ function emitOpenModal() {
       </nav>
 
     
-  </div>
+    </header>
 </template>
 
 <style scoped>
+
+*, *::before, *::after {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 nav{
   background: #06232c;
@@ -67,7 +74,8 @@ nav svg{
 }
 
 nav img{
-  height: 70px;
+  margin-left: 30px;
+  height: 28px;
 }
 
 .logosRightHeader {

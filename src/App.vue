@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Modale from "./components/ModaleTown.vue";
+import Footer from "./components/Footer.vue";
 import { ref, onMounted } from 'vue';
 
 const townList = ref([]);
@@ -54,6 +55,7 @@ async function fetchTown() {
     @showModalUpdated="updateShowModal"  
     id="viewPage">
     </router-view>
+    <Footer />
   </div>
 </template>
 

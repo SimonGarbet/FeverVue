@@ -155,6 +155,7 @@ h1 button{
         font-weight: 600;
         border: none;
         background: #fff;
+        cursor: pointer;
 }
 
 h1 button svg{
@@ -218,6 +219,7 @@ figure img{
         justify-content: center;
         width: 100%;
         margin: 70px 0;
+        cursor: pointer;
 }
 
 .showAllButton button{
