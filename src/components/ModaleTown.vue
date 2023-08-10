@@ -42,7 +42,6 @@ const props = defineProps({
 
 <style scoped>
 
-
 .overlayHeader{
   position: fixed;
   z-index: 2;
@@ -88,13 +87,14 @@ const props = defineProps({
 
 figure{
   position: relative;
-  height: 200px;
+  height: 130px;
+  margin: 20px 20px;
 }
 
 figure img{
   position: absolute;
   z-index: 4;
-  height: 200px;
+  height: 130px;
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
@@ -107,7 +107,7 @@ figure p{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   z-index: 5;
   margin: 0;
 }

@@ -1,6 +1,6 @@
 <script setup>
 import Header from "./components/Header.vue";
-import Modale from "./components/Modale.vue";
+import Modale from "./components/ModaleTown.vue";
 import { ref, onMounted } from 'vue';
 
 const townList = ref([]);
@@ -49,13 +49,21 @@ async function fetchTown() {
     <Header 
     @showModalUpdated="updateShowModal" 
     />
-    <router-view id="viewPage"></router-view>
+    <router-view 
+    :townList="townList" 
+    @showModalUpdated="updateShowModal"  
+    id="viewPage">
+    </router-view>
   </div>
 </template>
 
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
 *, *::before, *::after {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
