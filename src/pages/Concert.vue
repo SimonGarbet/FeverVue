@@ -16,6 +16,7 @@
       } catch (err) {
         console.log('===== error =====', err)
       }
+
     };
 
 
@@ -24,9 +25,32 @@
 </script>
 
 <template>
-  <h1>Concert List</h1>
+  <div class="globalContainer">
+    <section v-if="concertList.length===0">
+        <h1> Pas de concerts programmés</h1>
+    </section>
+    <section v-else>
+      <figure v-for="concert in concertList" :key="concert.id">
+        <a :href="'/concert/'+concert.path+'/'+concert.id">
+            <img :src="concert.image" alt= 'Vignette du concert' />
+          </a>
+        </figure>
+  </section>
+</div>
 </template>
 
 <style scoped>
+
+*, *::before, *::after {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.globalContainer{
+  background:#06232c;
+  border-top: 1px solid #2c4751;
+}
 
 </style>
