@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { defineEmits, defineProps } from 'vue';
 
 const props = defineProps({
-  townList: Array
+  homeTown: Array
 });
 
 const emits = defineEmits();
@@ -32,8 +32,8 @@ function emitOpenModal() {
                         <div>
                                 <h2>Sélection de villes</h2>
                                 <div class="townSelection">
-                                        <figure v-for="town in townList" :key="town.id">
-                                                <a :href="town.path">
+                                        <figure v-for="town in homeTown" :key="town.id">
+                                                <a :href="'/concert/'+town.path">
                                                 <p>{{ town.title }}</p>
                                                 <img :src="town.image" alt= 'Photographie de la ville concernée' />
                                                 </a>
@@ -177,7 +177,7 @@ h2{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 20px;
+        row-gap: 50px ;
 }
 
 figure{
@@ -185,6 +185,7 @@ figure{
         position: relative;
         width: 30%;
         height: 305px;
+        transition: all .3s ease-in-out;
 }
 
 figure a{
@@ -192,9 +193,31 @@ figure a{
         text-decoration: none;
 }
 
+figure a::after{
+        content: "";
+        display: block;
+        z-index: 2;
+        width: 100%;
+        height: 305px;
+        position: absolute;
+        background: #eb0052;
+        transition: all .3s ease-in-out;
+        border-radius: 30px;
+        opacity: 0;
+        cursor: pointer;
+
+
+}
+
+figure a:hover::after{
+        opacity: 0.5;
+}
+
+
+
 figure p{
         position: absolute;
-        z-index: 1;
+        z-index: 3;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -212,6 +235,7 @@ figure img{
         height: 305px;
         object-fit: cover;
         border-radius: 30px;
+        filter: brightness(65%);
 }
 
 .showAllButton{
@@ -274,6 +298,7 @@ figure img{
         position: relative;
         padding: 70px 0;
         background: #24a865;
+        overflow: hidden;
 }
 
 .applicationHome::before{

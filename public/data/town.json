@@ -3,28 +3,28 @@
         "id" : "MAD",
         "path" : "Madrid",
         "title" : "Madrid",
-        "image" : "/data/images/town/MadridPicture.avif"
+        "image" : "/data/images/town/MadridPicture.jpg"
     },
 
     {
         "id" : "NY",
         "path" : "NewYork",
         "title" : "New York",
-        "image" : "/data/images/town/NewYorkPicture.avif"
+        "image" : "/data/images/town/NewYorkPicture.jpg"
     },
 
     {
         "id" : "PAR",
         "path" : "Paris",
         "title" : "Paris",
-        "image" : "/data/images/town/ParisPicture.avif"
+        "image" : "/data/images/town/ParisPicture.jpg"
     },
 
     {
         "id" : "LON",
         "path" : "London",
         "title" : "Londres",
-        "image" : "/data/images/town/LondonPicture.avif"
+        "image" : "/data/images/town/LondonPicture.jpg"
     },
 
     {
@@ -38,6 +38,50 @@
         "id" : "LA",
         "path" : "LosAngeles",
         "title" : "Los Angeles",
-        "image" : "/data/images/town/LosAngelesPicture.avif"
+        "image" : "/data/images/town/LosAngelesPicture.jpg"
+    },
+
+    {
+        "id" : "Athenes",
+        "path" : "Athenes",
+        "title" : "Athènes",
+        "image" : "/data/images/town/AthenesPicture.jpg"
+    },
+
+    {
+        "id" : "Berlin",
+        "path" : "Berlin",
+        "title" : "Berlin",
+        "image" : "/data/images/town/BerlinPicture.jpg"
+    },
+
+    {
+        "id" : "Rio",
+        "path" : "Rio",
+        "title" : "Rio de Janeiro",
+        "image" : "/data/images/town/RioPicture.jpg"
+    },
+
+    {
+        "id" : "Rome",
+        "path" : "Rome",
+        "title" : "Rome",
+        "image" : "/data/images/town/RomePicture.jpg"
+    },
+
+    {
+        "id" : "Sydney",
+        "path" : "Sydney",
+        "title" : "Sydney",
+        "image" : "/data/images/town/SydneyPicture.jpg"
+    },
+
+    {
+        "id" : "Tokyo",
+        "path" : "Tokyo",
+        "title" : "Tokyo",
+        "image" : "/data/images/town/TokyoPicture.jpg"
     }
+
+
 ]

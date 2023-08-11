@@ -30,7 +30,7 @@ const props = defineProps({
       </div>
         <div class="scrollTown">
           <figure v-for="town in townList" :key="town.id">
-            <a :href="town.path">
+            <a :href="'/concert/'+town.path">
             <p>{{ town.title }}</p>
             <img :src="town.image" alt= 'Photographie de la ville concernée' />
             </a>
@@ -44,7 +44,7 @@ const props = defineProps({
 
 .overlayHeader{
   position: fixed;
-  z-index: 2;
+  z-index: 9;
   width: 100%;
   height: 100vh;
   
@@ -59,7 +59,7 @@ const props = defineProps({
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 3;
+  z-index: 10;
 
   background-color: white;
   border-radius: 10px;
@@ -87,19 +87,40 @@ const props = defineProps({
 
 figure{
   position: relative;
-  height: 130px;
+  height: 100px;
   margin: 20px 20px;
 }
 
 figure img{
   position: absolute;
-  z-index: 4;
-  height: 130px;
+  z-index: 11;
+  height: 100px;
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
   filter: brightness(65%);
 }
+
+figure a::after{
+  
+        content: "";
+        display: block;
+        z-index: 12;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        background: #eb0052;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        cursor: pointer;
+    border-radius: 30px ;
+
+}
+
+figure a:hover::after{
+        opacity: 0.5;
+}
+
 
 figure p{
   position: absolute;
@@ -108,7 +129,7 @@ figure p{
   transform: translate(-50%, -50%);
   color: white;
   font-size: 30px;
-  z-index: 5;
+  z-index: 13;
   margin: 0;
 }
 
