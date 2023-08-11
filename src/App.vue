@@ -6,7 +6,6 @@ import { ref, onMounted } from 'vue';
 
 const townList = ref([]);
 const homeTown = ref([]);
-const concertList = ref([]);
 const showModal = ref(false);
 
 function updateShowModal(value) {
@@ -17,27 +16,14 @@ async function fetchTown() {
       try {
         const response = await fetch(`http://localhost:5173/data/town.json`);
         townList.value = await response.json();
-        console.log(townList.value);
-        homeTown.value = [townList.value[0], townList.value[1], townList.value[2], townList.value[3], townList.value[4], townList.value[5]]
+        homeTown.value = [townList.value[0], townList.value[1], townList.value[2], townList.value[3], townList.value[4], townList.value[5]];
+        townList.value.sort((a,b) => a.title.localeCompare(b.title, 'fr', { sensitivity: 'base' }));
       } catch (err) {
         console.log('===== error =====', err)
       }
     };
 
     onMounted(fetchTown);
-
-    async function fetchConcert() {
-      try {
-        const response = await fetch(`http://localhost:5173/data/concerts.json`)
-       concertList.value = await response.json()
-        console.log(concertList.value);
-      } catch (err) {
-        console.log('===== error =====', err)
-      }
-    };
-
-
-    onMounted(fetchConcert);
 
 </script>
 
@@ -53,7 +39,7 @@ async function fetchTown() {
     @showModalUpdated="updateShowModal" 
     />
     <router-view 
-    :homeTown="homeTown" 
+    :homeTown="homeTown"
     @showModalUpdated="updateShowModal"  
     id="viewPage">
     </router-view>

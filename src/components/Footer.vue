@@ -47,9 +47,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
     <section class="secondPartFoot">
 
         <div>
-            <font-awesome-icon icon="fa-brands fa-square-facebook" />
-            <font-awesome-icon icon="fa-brands fa-square-twitter" />
-            <font-awesome-icon icon="fa-brands fa-instagram" />
+            <a href="https://www.facebook.com/feverup/"> <font-awesome-icon icon="fa-brands fa-square-facebook" /></a>
+            <a href="https://twitter.com/fever_US?lang=en"> <font-awesome-icon icon="fa-brands fa-square-twitter" /></a>
+            <a href="https://www.instagram.com/fever_us/?hl=en"> <font-awesome-icon icon="fa-brands fa-instagram" /></a>
         </div>
 
         <p><font-awesome-icon icon="fa-regular fa-copyright" />2023 Fever</p>
@@ -86,6 +86,7 @@ footer{
 .firstPartFoot li{
     list-style-type: none;
     margin-top: 5px;
+    cursor: pointer;
 }
 .firstPartFoot h3{
     margin-top: 15px;
@@ -115,6 +116,7 @@ footer{
 }
 
 .secondPartFoot svg{
+    color: #fff;
     padding: 10px;
     font-size: 30px;
 }

@@ -7,7 +7,7 @@
     },
 
     {
-        "id" : "NY",
+        "id" : "NYC",
         "path" : "NewYork",
         "title" : "New York",
         "image" : "/data/images/town/NewYorkPicture.jpg"
@@ -35,49 +35,49 @@
     },
 
     {
-        "id" : "LA",
+        "id" : "LAN",
         "path" : "LosAngeles",
         "title" : "Los Angeles",
         "image" : "/data/images/town/LosAngelesPicture.jpg"
     },
 
     {
-        "id" : "Athenes",
+        "id" : "ATH",
         "path" : "Athenes",
         "title" : "Athènes",
         "image" : "/data/images/town/AthenesPicture.jpg"
     },
 
     {
-        "id" : "Berlin",
+        "id" : "BLN",
         "path" : "Berlin",
         "title" : "Berlin",
         "image" : "/data/images/town/BerlinPicture.jpg"
     },
 
     {
-        "id" : "Rio",
+        "id" : "RIO",
         "path" : "Rio",
         "title" : "Rio de Janeiro",
         "image" : "/data/images/town/RioPicture.jpg"
     },
 
     {
-        "id" : "Rome",
+        "id" : "ROM",
         "path" : "Rome",
         "title" : "Rome",
         "image" : "/data/images/town/RomePicture.jpg"
     },
 
     {
-        "id" : "Sydney",
+        "id" : "SYD",
         "path" : "Sydney",
         "title" : "Sydney",
         "image" : "/data/images/town/SydneyPicture.jpg"
     },
 
     {
-        "id" : "Tokyo",
+        "id" : "TKY",
         "path" : "Tokyo",
         "title" : "Tokyo",
         "image" : "/data/images/town/TokyoPicture.jpg"

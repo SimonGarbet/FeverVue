@@ -21,12 +21,12 @@ routes: [
     component: Home
     },
     {
-        path: '/concert/:town/:id',
+    path: '/concert/:town/:id',
     name: 'Target',
     component: Target
     },
     {
-        path: '/concert/:town',
+    path: '/concert/:town',
     name: 'concert',
     component: Concert
     }
