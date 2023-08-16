@@ -40,6 +40,11 @@ function emitOpenModal() {
   box-sizing: border-box;
 }
 
+header{
+  position: relative;
+  z-index: 3;
+}
+
 nav{
   background: #06232c;
   display: flex;

@@ -7,10 +7,12 @@ import Concert from './pages/Concert.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faChevronDown, faXmark, faStar, faStarHalfStroke} from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faXmark, faStar, faStarHalfStroke, faLocationDot, faHourglassEnd, faWheelchair, faChild, faCirclePlus, faCircleMinus, faCalendarDay, faCheck} from '@fortawesome/free-solid-svg-icons';
 import {faHeart, faCircleUser, faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { faSquareFacebook, faSquareTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-library.add(faChevronDown, faXmark, faHeart, faCircleUser, faStar, faStarHalfStroke, faCopyright, faSquareFacebook, faSquareTwitter, faInstagram)
+library.add(faChevronDown, faXmark, faHeart, faCircleUser, faStar, faStarHalfStroke, faCopyright, faSquareFacebook, faSquareTwitter, faInstagram, faLocationDot, faHourglassEnd, faWheelchair, faChild, faCirclePlus, faCircleMinus, faCalendarDay, faCheck)
+
+
 
 const router = VueRouter.createRouter({
 history: VueRouter.createWebHistory(),

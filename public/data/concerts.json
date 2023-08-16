@@ -29,10 +29,8 @@
             "Friends - I’ll Be There for You (1995)"
         ],
         "date" : [
-            {"id": "date2023-12-10T19:00:00", "dayhour" : "2023-12-10T19:00:00"},
-            {"id": "date2023-12-10T21:00:00", "dayhour" : "2023-12-10T21:00:00"}
+            {"id": "20231210", "day" : "10 Dec 2023", "hour" : ["19:00", "21:00"]}
         ],
-        "viewprice" : "58,00€",
         "price" : 58.00
     },
 
@@ -52,12 +50,11 @@
         "description" : "En un mundo distópico donde la música está prohibida surge WAH Madrid, el último reducto donde poder volver a vivirla... ¡Adéntrate en un espectáculo inédito en Europa! WAH combina lo mejor de los musicales, una gran historia y una espectacular puesta en escena y vestuario, con una gran experiencia musical inmersiva a través de los mayores éxitos de la historia de la música. Desde Beethoven hasta Michael Jackson, unidos por un mismo hilo conductor y a cargo de grandes voces y artistas. Todo ello aderezado con una gran experiencia gastronómica en la que degustarás, si quieres, cocina gourmet de todo el mundo a través de 12 estaciones. Forma parte del espectáculo… ¡Consigue tus entradas para WAH, el show musical y gastronómico en IFEMA Madrid! Solicita tu Uber y llega de la forma más sencilla al mayor show gastronómico y musical en IFEMA.",
 
         "date" : [
-            {"id": "date2023-09-14T19:30:00", "dayhour" : "2023-09-14T19:30:00"},
-            {"id": "date2023-09-15T19:30:00", "dayhour" : "2023-09-15T19:30:00"},
-            {"id": "date2023-09-16T19:30:00", "dayhour" : "2023-09-16T19:30:00"},
-            {"id": "date2023-09-17T13:00:00", "dayhour" : "2023-09-17T13:00:00"}
+            {"id": "20230914", "day" : "14 Sept 2023", "hour" : ["19:30"]},
+            {"id": "20230915", "day" : "15 Sept 2023", "hour" : ["19:30"]},
+            {"id": "20230916", "day" : "16 Sept 2023", "hour" : ["19:30"]},
+            {"id": "20230917", "day" : "17 Sept 2023", "hour" : ["13:00"]}
         ],
-        "viewprice" : "40,00€",
         "price" : 40.00
     },
 
@@ -77,9 +74,8 @@
         "description" : "¡Ven al Autocine Madrid Fever a vivir un festival latino único hasta el momento! Ritmo Latino Fest vuelve con fuerza en su 4º edición para ofrecerte un evento global en el que la música latina, la gastronomía y la cultura te harán vivir una experiencia 360º inolvidable. Empezarás el día con el ambiente más top, música y DJs en directo y los sabores más deliciosos gracias a los mejores platos latinoamericanos, desde arepas hasta burritos. Para finalizar, te dejarás llevar por el sonido actual del electrolatino y del reggaeton más potentes con DJs en directo. ¿Te vienes? ¡Consigue tus entradas para Ritmo Latino Fest 2023 en Autocine Madrid Fever!",
 
         "date" : [
-            {"id": "date2023-09-09T13:00:00", "dayhour" : "2023-09-09T13:00:00"}
+            {"id": "20230909", "day" : "09 Sept 2023", "hour" : ["13:00"]}
         ],
-        "viewprice" : "30,00€",
         "price" : 30.00
     },
 
@@ -99,12 +95,11 @@
         "description" : "Welcome to the hottest party in town! A world of red-hot rhythms, bootleg liquor, and pure jazz-age self-indulgence awaits. Spend the evening dancing and clinking glasses with Nick Carraway, Daisy and Tom Buchanan, Myrtle Wilson, and Jay Gatsby himself. As the champagne flows, all the drama unfolds. Dress to the nines and immerse yourself in this heart-racing adaptation of F. Scott Fitzgerald’s seminal tale. Step into the roaring twenties and get your tickets for The Great Gatsby Immersive Show in New York!",
 
         "date" : [
-            {"id": "date2023-10-05T20:00:00", "dayhour" : "2023-10-05T20:00:00"},
-            {"id": "date2023-10-06T20:00:00", "dayhour" : "2023-10-06T20:00:00"},
-            {"id": "date2023-10-07T20:00:00", "dayhour" : "2023-10-07T20:00:00"},
-            {"id": "date2023-10-08T20:00:00", "dayhour" : "2023-10-08T20:00:00"}
+            {"id": "20231005", "day" : "05 Oct 2023", "hour" : ["20:00"]},
+            {"id": "20231006", "day" : "06 Oct 2023", "hour" : ["20:00"]},
+            {"id": "20231007", "day" : "07 Oct 2023", "hour" : ["20:00"]},
+            {"id": "20231008", "day" : "08 Oct 2023", "hour" : ["20:00"]}
         ],
-        "viewprice" : "120,00€",
         "price" : 120.00
     },
 
@@ -124,12 +119,11 @@
         "description" : "Titanic. The Exhibition NYC is far more than a display of historic items: it is a unique narrative experience, a tale of the people aboard history’s most legendary ship on its maiden and final journey. Travel back to 1912 through photographs, handwritten letters, wayward keepsakes, and other personal belongings telling countless stories about fates and heroic deeds on board. As you listen to survivor testimonies on your audio guide, you will have a chance to observe recreated interiors of natural size, witnessing the stark contrast between a lavish first-class suite and a humble third-class cabin. Past and present come together in this emotional journey, a trip through time that brings us closer to the myths, stories and glamor of the historic Titanic.",
 
         "date" : [
-            {"id": "date2023-10-05T20:00:00", "dayhour" : "2023-10-05T20:00:00"},
-            {"id": "date2023-10-06T20:00:00", "dayhour" : "2023-10-06T20:00:00"},
-            {"id": "date2023-10-07T20:00:00", "dayhour" : "2023-10-07T20:00:00"},
-            {"id": "date2023-10-08T20:00:00", "dayhour" : "2023-10-08T20:00:00"}
+            {"id": "20231005", "day" : "05 Oct 2023", "hour" : ["20:00"]},
+            {"id": "20231006", "day" : "06 Oct 2023", "hour" : ["20:00"]},
+            {"id": "20231007", "day" : "07 Oct 2023", "hour" : ["20:00"]},
+            {"id": "20231008", "day" : "08 Oct 2023", "hour" : ["20:00"]}
         ],
-        "viewprice" : "40,00€",
         "price" : 40.00
     },
 
@@ -149,9 +143,8 @@
         "description" : "Titanic. The Exhibition NYC is far more than a display of historic items: it is a unique narrative experience, a tale of the people aboard history’s most legendary ship on its maiden and final journey. Travel back to 1912 through photographs, handwritten letters, wayward keepsakes, and other personal belongings telling countless stories about fates and heroic deeds on board. As you listen to survivor testimonies on your audio guide, you will have a chance to observe recreated interiors of natural size, witnessing the stark contrast between a lavish first-class suite and a humble third-class cabin. Past and present come together in this emotional journey, a trip through time that brings us closer to the myths, stories and glamor of the historic Titanic.",
 
         "date" : [
-            {"id": "date2023-09-09T10:00:00", "dayhour" : "2023-10-05T10:00:00"}
+            {"id": "20230909", "day" : "05 Oct 2023", "hour" : ["10:00"]}
         ],
-        "viewprice" : "38,00€",
         "price" : 38.00
     },
 
@@ -171,10 +164,9 @@
         "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
 
         "date" : [
-            {"id": "date2023-10-07T19:30:00", "dayhour" : "2023-10-07T19:30:00"},
-            {"id": "date2023-11-04T19:30:00", "dayhour" : "2023-11-04T19:30:00"}
+            {"id": "20231007", "day" : "10 Oct 2023", "hour" : ["19:30", "20:30"]},
+            {"id": "20231104", "day" : "11 Nov 2023", "hour" : ["19:30", "20:30"]}
         ],
-        "viewprice" : "50,00€",
         "price" : 50.00
     },
 
@@ -187,15 +179,14 @@
         "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
         "information" : [{
             "place" : "Lieu : Le Grand Rex (Paris 2)",
-            "duration" : "Durée : 4h50 environ pour cette date spéciale ",
+            "duration" : "Durée : 4h50 environ pour cette  spéciale ",
             "age" : "Âge requis : ouvert à tous",
-            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette date spéciale"
+            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette  spéciale"
             }],
         "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
         "date" : [
-            {"id": "date2023-09-15T18:00:00", "dayhour" : "2023-09-15T18:00:00"}
+            {"id": "20230915", "day" : "15 Sept 2023", "hour" : ["18:00", "21:00"]}
         ],
-        "viewprice" : "30,00€",
         "price" : 30.00
     },
     
@@ -214,10 +205,9 @@
             }],
         "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
         "date" : [
-            {"id": "date2023-11-12T15:00:00", "dayhour" : "2023-11-12T15:00:00"},
-            {"id": "date2023-11-12T20:00:00", "dayhour" : "2023-11-12T20:00:00"}
+            {"id": "20231112", "day" : "12 Nov 2023", "hour" : ["15:00", "20:00"]},
+            {"id": "20231113", "day" : "13 Nov 2023", "hour" : ["16:00", "21:00"]}
         ],
-        "viewprice" : "40,00€",
         "price" : 40.00
     },
 
@@ -236,152 +226,9 @@
             }],
         "description" : "It all began with a mouse and a dream; a dream that became a story. A story now being told. Dive into the world of The Walt Disney Company and experience 100 years of magic like never before! Wonder at rare, original artefacts and props, see original costumes from your favourite Disney classics, and explore revolutionary exhibits that bring the magic of Disney to life. Featuring the latest members of the Disney family (Pixar, Star Wars, MARVEL, and National Geographic), along with renowned classics like Snow White and the Seven Dwarfs (1937) and recent releases such as Encanto (2021), this incredible celebration of all things Disney has something for everyone. Get your tickets now to Disney100: The Exhibition in London!",
         "date" : [
-            {"id": "date2023-10-19T14:00:00", "dayhour" : "2023-10-19T14:00:00"},
-            {"id": "date2023-10-19T16:00:00", "dayhour" : "2023-10-19T16:00:00"},
-            {"id": "date2023-10-19T18:00:00", "dayhour" : "2023-10-19T18:00:00"},
-            {"id": "date2023-10-20T14:00:00", "dayhour" : "2023-10-20T14:00:00"},
-            {"id": "date2023-10-20T16:00:00", "dayhour" : "2023-10-20T16:00:00"},
-            {"id": "date2023-10-20T18:00:00", "dayhour" : "2023-10-20T18:00:00"}
+            {"id": "20231019", "day" : "19 Oct 2023", "hour" : ["14:00", "16:00", "18:00"]},
+            {"id": "20231020", "day" : "20 Oct 2023", "hour" : ["14:00", "16:00", "18:00"]}
         ],
-        "viewprice" : "70,00€",
-        "price" : 70.00
-    },
-
-    {
-        "id" : "4678PAR",
-        "path" : "Paris",
-        "title" : "L'Ecran Pop Cinéma-Karaoké : Grease",
-        "image" : "/data/images/concerts/EcranPop.avif",
-        "town" :  "Paris",
-        "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
-        "information" : [{
-            "place" : "Lieu : Le Grand Rex (Paris 2)",
-            "duration" : "Durée : 4h50 environ pour cette date spéciale ",
-            "age" : "Âge requis : ouvert à tous",
-            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette date spéciale"
-            }],
-        "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
-        "date" : [
-            {"id": "date2023-09-15T18:00:00", "dayhour" : "2023-09-15T18:00:00"}
-        ],
-        "viewprice" : "30,00€",
-        "price" : 30.00
-    },
-    
-    {
-        "id" : "7468PAR",
-        "path" : "Paris",
-        "title" : "The Empire Strips Back : la parodie burlesque",
-        "image" : "/data/images/concerts/EmpireStrips.avif",
-        "town" :  "Paris",
-        "summary" : "La célèbre parodie burlesque The Empire Strips Back débarque à Paris ! Ce spectacle à grand succès s’est produit à guichet fermé en Amérique, et propulse les personnages emblématiques de la science-fiction dans le monde du burlesque ! Entre danse et défilé, le tout costumé, ne passe surtout pas à côté du show le plus osé de la galaxie !",
-        "information" : [{
-            "place" : "Lieu : Théâtre du Gymnase Marie Bell, 38 Bd de Bonne Nouvelle (Paris 10)",
-            "duration" : "Durée : 1h45",
-            "age" : "Âge requis : 18 ans et plus",
-            "accessibility" : "Accessibilité : Non renseignée"
-            }],
-        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
-        "date" : [
-            {"id": "date2023-11-12T15:00:00", "dayhour" : "2023-11-12T15:00:00"},
-            {"id": "date2023-11-12T20:00:00", "dayhour" : "2023-11-12T20:00:00"}
-        ],
-        "viewprice" : "40,00€",
-        "price" : 40.00
-    },
-
-    {
-        "id" : "4788LON",
-        "path" : "London",
-        "title" : "Disney100: The Exhibition - London",
-        "image" : "/data/images/concerts/Disney100.avif",
-        "town" :  "London",
-        "summary" : "The Walt Disney Archives opens a vault of historical and special treasures, original artworks, artefacts, costumes, props and memorabilia with the launch of Disney100: The Exhibition, now in London! This once-in-a-lifetime event celebrates the magic of Disney, which has captured the hearts of audiences around the globe.",
-        "information" : [{
-            "place" : "Location: Excel London",
-            "duration" : "Duration: the visit will take approx. 1 hour",
-            "age" : "Age requirement: all ages welcome. Free entry for children under 5",
-            "accessibility" : "Accessibility: the venue is wheelchair accessible"
-            }],
-        "description" : "It all began with a mouse and a dream; a dream that became a story. A story now being told. Dive into the world of The Walt Disney Company and experience 100 years of magic like never before! Wonder at rare, original artefacts and props, see original costumes from your favourite Disney classics, and explore revolutionary exhibits that bring the magic of Disney to life. Featuring the latest members of the Disney family (Pixar, Star Wars, MARVEL, and National Geographic), along with renowned classics like Snow White and the Seven Dwarfs (1937) and recent releases such as Encanto (2021), this incredible celebration of all things Disney has something for everyone. Get your tickets now to Disney100: The Exhibition in London!",
-        "date" : [
-            {"id": "date2023-10-19T14:00:00", "dayhour" : "2023-10-19T14:00:00"},
-            {"id": "date2023-10-19T16:00:00", "dayhour" : "2023-10-19T16:00:00"},
-            {"id": "date2023-10-19T18:00:00", "dayhour" : "2023-10-19T18:00:00"},
-            {"id": "date2023-10-20T14:00:00", "dayhour" : "2023-10-20T14:00:00"},
-            {"id": "date2023-10-20T16:00:00", "dayhour" : "2023-10-20T16:00:00"},
-            {"id": "date2023-10-20T18:00:00", "dayhour" : "2023-10-20T18:00:00"}
-        ],
-        "viewprice" : "70,00€",
-        "price" : 70.00
-    },
-
-    {
-        "id" : "4678PAR",
-        "path" : "Paris",
-        "title" : "L'Ecran Pop Cinéma-Karaoké : Grease",
-        "image" : "/data/images/concerts/EcranPop.avif",
-        "town" :  "Paris",
-        "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
-        "information" : [{
-            "place" : "Lieu : Le Grand Rex (Paris 2)",
-            "duration" : "Durée : 4h50 environ pour cette date spéciale ",
-            "age" : "Âge requis : ouvert à tous",
-            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette date spéciale"
-            }],
-        "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
-        "date" : [
-            {"id": "date2023-09-15T18:00:00", "dayhour" : "2023-09-15T18:00:00"}
-        ],
-        "viewprice" : "30,00€",
-        "price" : 30.00
-    },
-    
-    {
-        "id" : "7468PAR",
-        "path" : "Paris",
-        "title" : "The Empire Strips Back : la parodie burlesque",
-        "image" : "/data/images/concerts/EmpireStrips.avif",
-        "town" :  "Paris",
-        "summary" : "La célèbre parodie burlesque The Empire Strips Back débarque à Paris ! Ce spectacle à grand succès s’est produit à guichet fermé en Amérique, et propulse les personnages emblématiques de la science-fiction dans le monde du burlesque ! Entre danse et défilé, le tout costumé, ne passe surtout pas à côté du show le plus osé de la galaxie !",
-        "information" : [{
-            "place" : "Lieu : Théâtre du Gymnase Marie Bell, 38 Bd de Bonne Nouvelle (Paris 10)",
-            "duration" : "Durée : 1h45",
-            "age" : "Âge requis : 18 ans et plus",
-            "accessibility" : "Accessibilité : Non renseignée"
-            }],
-        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
-        "date" : [
-            {"id": "date2023-11-12T15:00:00", "dayhour" : "2023-11-12T15:00:00"},
-            {"id": "date2023-11-12T20:00:00", "dayhour" : "2023-11-12T20:00:00"}
-        ],
-        "viewprice" : "40,00€",
-        "price" : 40.00
-    },
-
-    {
-        "id" : "4788LON",
-        "path" : "London",
-        "title" : "Disney100: The Exhibition - London",
-        "image" : "/data/images/concerts/Disney100.avif",
-        "town" :  "London",
-        "summary" : "The Walt Disney Archives opens a vault of historical and special treasures, original artworks, artefacts, costumes, props and memorabilia with the launch of Disney100: The Exhibition, now in London! This once-in-a-lifetime event celebrates the magic of Disney, which has captured the hearts of audiences around the globe.",
-        "information" : [{
-            "place" : "Location: Excel London",
-            "duration" : "Duration: the visit will take approx. 1 hour",
-            "age" : "Age requirement: all ages welcome. Free entry for children under 5",
-            "accessibility" : "Accessibility: the venue is wheelchair accessible"
-            }],
-        "description" : "It all began with a mouse and a dream; a dream that became a story. A story now being told. Dive into the world of The Walt Disney Company and experience 100 years of magic like never before! Wonder at rare, original artefacts and props, see original costumes from your favourite Disney classics, and explore revolutionary exhibits that bring the magic of Disney to life. Featuring the latest members of the Disney family (Pixar, Star Wars, MARVEL, and National Geographic), along with renowned classics like Snow White and the Seven Dwarfs (1937) and recent releases such as Encanto (2021), this incredible celebration of all things Disney has something for everyone. Get your tickets now to Disney100: The Exhibition in London!",
-        "date" : [
-            {"id": "date2023-10-19T14:00:00", "dayhour" : "2023-10-19T14:00:00"},
-            {"id": "date2023-10-19T16:00:00", "dayhour" : "2023-10-19T16:00:00"},
-            {"id": "date2023-10-19T18:00:00", "dayhour" : "2023-10-19T18:00:00"},
-            {"id": "date2023-10-20T14:00:00", "dayhour" : "2023-10-20T14:00:00"},
-            {"id": "date2023-10-20T16:00:00", "dayhour" : "2023-10-20T16:00:00"},
-            {"id": "date2023-10-20T18:00:00", "dayhour" : "2023-10-20T18:00:00"}
-        ],
-        "viewprice" : "70,00€",
         "price" : 70.00
     },
 
@@ -400,12 +247,11 @@
             }],
         "description" : "Step into a world of pleasure! Can you imagine a space created just to delight your senses and stimulate dopamine? Welcome to Dopamine Land, the immersive experience in London, an interactive museum of dopamine-inducing sensory experiences. Explore a series of spaces designed to stimulate touch, sight, smell, and even memory. Sip on bubble teas, relax in meditative spaces, and channel the limitless imagination of your inner child. Enter a world of happiness!",
         "date" : [
-            {"id": "date2023-10-17T19:00:00", "dayhour" : "2023-10-17T19:00:00"},
-            {"id": "date2023-10-18T19:00:00", "dayhour" : "2023-10-18T19:00:00"},
-            {"id": "date2023-10-19T19:00:00", "dayhour" : "2023-10-19T19:00:00"},
-            {"id": "date2023-10-20T19:00:00", "dayhour" : "2023-10-20T19:00:00"}
+            {"id": "20231017", "day" : "17 Oct 2023", "hour" : ["19:00"]},
+            {"id": "20231018", "day" : "18 Oct 2023", "hour" : ["19:00"]},
+            {"id": "20231019", "day" : "19 Oct 2023", "hour" : ["19:00"]},
+            {"id": "20231020", "day" : "20 Oct 2023", "hour" : ["19:00"]}
         ],
-        "viewprice" : "39,00€",
         "price" : 39.00
     },
 
@@ -424,12 +270,11 @@
             }],
         "description" : "Step into a world of pleasure! Can you imagine a space created just to delight your senses and stimulate dopamine? Welcome to Dopamine Land, the immersive experience in London, an interactive museum of dopamine-inducing sensory experiences. Explore a series of spaces designed to stimulate touch, sight, smell, and even memory. Sip on bubble teas, relax in meditative spaces, and channel the limitless imagination of your inner child. Enter a world of happiness!",
         "date" : [
-            {"id": "date2023-10-17T19:00:00", "dayhour" : "2023-10-17T19:00:00"},
-            {"id": "date2023-10-18T19:00:00", "dayhour" : "2023-10-18T19:00:00"},
-            {"id": "date2023-10-19T19:00:00", "dayhour" : "2023-10-19T19:00:00"},
-            {"id": "date2023-10-20T19:00:00", "dayhour" : "2023-10-20T19:00:00"}
+            {"id": "20231017", "day" : "17 Oct 2023", "hour" : ["21:00"]},
+            {"id": "20231018", "day" : "18 Oct 2023", "hour" : ["21:00"]},
+            {"id": "20231019", "day" : "19 Oct 2023", "hour" : ["21:00"]},
+            {"id": "20231020", "day" : "20 Oct 2023", "hour" : ["21:00"]}
         ],
-        "viewprice" : "80,00€",
         "price" : 80.00
     },
 
@@ -448,9 +293,8 @@
             }],
         "description" : "Arte, tecnología e historia se unen en una nueva y fascinante experiencia interactiva en la Casa Amatller. El primer edificio modernista del Eixample, y obra del arquitecto Josep Puig i Cadafalch, acoge una exposición que recorre los orígenes del modernismo catalán, los dragones como símbolo, leyenda y mito, y la importancia del modernismo en la creación de la identidad cultural de Barcelona. Sumérgete en la época dorada y conoce en profundidad el movimiento artístico, arquitectónico y cultural que transformó la ciudad a principios del siglo XX. Una experiencia digital con proyecciones 360º, realidad virtual y otros recursos interactivos, en un apasionante viaje hasta la Barcelona de 1900. ¡Consigue tus entradas para Dragones y Modernismo: La Experiencia Inmersiva de la Casa Amatller, Barcelona!",
         "date" : [
-            {"id": "date2023-09-10T17:00:00", "dayhour" : "2023-09-10T17:00:00"}
+            {"id": "20230910", "day" : "10 Sept 2023", "hour" : ["17:00"]}
         ],
-        "viewprice" : "40,00€",
         "price" : 40.00
     },
 
@@ -469,9 +313,8 @@
             }],
         "description" : "¿Alguna vez te has preguntado qué se siente al comer en la oscuridad? Descubre un mundo nuevo de sabores eliminando la vista del menú con Dining in the Dark. Después de ponerte la venda en los ojos, entrarás en una estancia solamente iluminada por la luz de las velas. Sorprende a tu paladar y comprueba que concentrarse solo en el gusto y el olfato puede ser una experiencia verdaderamente estimulante... ¡Consigue tus entradas para Dining in the Dark en Iluzione, Barcelona!",
         "date" : [
-            {"id": "date2023-09-27T21:00:00", "dayhour" : "2023-09-27T21:00:00"}
+            {"id": "20230927", "day" : "27 Sept 2023", "hour" : ["21:00"]}
         ],
-        "viewprice" : "25,00€",
         "price" : 25.00
     },
 
@@ -490,9 +333,8 @@
             }],
         "description" : "¿Tienes ganas de darlo todo de nuevo? ¡Ven a vivir lo mejor de la primavera! Revive una de esas fiestas locas de los años 90, cuando el disco, el funk y multitud de hits musicales sonaban al unísono en todo el planeta tierra. Añádele a eso una terraza cubierta con amplias cristaleras con vistas al mar Mediterráneo y al DJ Mr. Majestyk, residente de la sala Apolo, a los platos y el resultado es una experiencia imprescindible. ¡Consigue tus entradas para The 90's Covered Terrace Party en Go Beach Club Barcelona!",
         "date" : [
-            {"id": "date2023-11-04T18:00:00", "dayhour" : "2023-11-04T18:00:00"}
+            {"id": "20231104", "day" : "04 Nov 2023", "hour" : ["18:00"]}
         ],
-        "viewprice" : "28,00€",
         "price" : 28.00
     },
 
@@ -511,9 +353,8 @@
             }],
         "description" : "World of Barbie at Santa Monica Place is now open! This interactive exhibit gives guests the chance to live out their life-size Barbie® dream. Visit Barbie® Dreamhouse, Sound Studio, and Science Lab (among others), watch fun Barbie® content at the Movie Theater, and check out World of Barbie Doll Gallery to learn more about how Barbie® dolls have inspired generations of girls to dream big. Snap some truly amazing pics and get your tickets for World of Barbie in LA!",
         "date" : [
-            {"id": "date2023-09-03T16:00:00", "dayhour" : "2023-09-03T16:00:00"}
+            {"id": "20230903", "day" : "03 Sept 2023", "hour" : ["16:00"]}
         ],
-        "viewprice" : "49,98€",
         "price" : 49.98
     },
 
@@ -532,10 +373,9 @@
             }],
         "description" : "Titanic The Exhibition is an interactive experience that tells the tale of the design, creation, launch, maiden voyage, and tragedy of the largest and most luxurious ship in the world at the time. Step inside vast, beautiful recreations of the ship’s interior, hear music from the era, and immerse yourself in the story of the real passenger whose boarding pass you hold. You’ll find relics that survived the sinking of the Titanic and items from her sister ships; then prepare to walk above a sea floor complete with sand and broken artifacts at the Discovery Gallery. Ready to embark on this awe-inspiring journey into history? Get your tickets for Titanic The Exhibition in Los Angeles!",
         "date" : [
-            {"id": "date2023-09-14T20:00:00", "dayhour" : "2023-09-14T20:00:00"},
-            {"id": "date2023-09-15T20:00:00", "dayhour" : "2023-09-15T20:00:00"}
+            {"id": "20230914", "day" : "14 Sept 2023", "hour" : ["20:00"]},
+            {"id": "20230915", "day" : "15 Sept 2023", "hour" : ["20:00"]}
         ],
-        "viewprice" : "70,00€",
         "price" : 70.00
     },
 
@@ -554,11 +394,10 @@
             }],
         "description" : "Go back millions of years to a land ruled by giants! This immersive experience brings you face-to-face with the fearsome and spectacular dinosaurs that dominated the animal world for 140 million years. From the turkey-sized Velociraptors to the mighty T-rex, interact with life-sized, moving animatronics of a large variety of species, and see these magnificent creatures in their natural Jurassic habitat. Step into another world and learn something new in an experience that's fun for the whole family! Get your tickets now for Dinos Alive in Los Angeles!",
         "date" : [
-            {"id": "date2023-08-25T20:00:00", "dayhour" : "2023-08-25T20:00:00"},
-            {"id": "date2023-08-26T20:00:00", "dayhour" : "2023-08-26T20:00:00"},
-            {"id": "date2023-08-27T20:00:00", "dayhour" : "2023-08-27T20:00:00"}
+            {"id": "20230825", "day" : "25 Aou 2023", "hour" : ["20:00"]},
+            {"id": "20230826", "day" : "26 Aou 2023", "hour" : ["20:00"]},
+            {"id": "20230827", "day" : "27 Aou 2023", "hour" : ["20:00"]}
         ],
-        "viewprice" : "38,00€",
         "price" : 38.00
     }
 

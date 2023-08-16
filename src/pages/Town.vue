@@ -1,7 +1,16 @@
 <script setup>
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-  import { ref, onMounted } from 'vue';
+  import { ref, onMounted, defineEmits } from 'vue';
   import { useRoute } from 'vue-router';
+
+
+  const emits = defineEmits();
+
+
+function emitOpenModal() {
+  const showModal = true;
+  emits('showModalUpdated', showModal); 
+}
 
   const route = useRoute();
 
@@ -30,10 +39,11 @@
 
 <template>
   <div class="globalContainer">
-    <section v-if="(concertList.length===0) && (isLoading === false)">
+    <section class="noConcerts" v-if="(concertList.length===0) && (isLoading === false)">
         <h1> Pas de concerts programmés</h1>
+        <p>Sélectionnez une nouvelle <button @click="emitOpenModal">ville <font-awesome-icon icon="fa-solid fa-chevron-down" /></button></p>
     </section>
-    <section v-if="(concertList !==null) && (isLoading === false)">
+    <section v-if="(concertList !==null) && (concertList.length > 0) && (isLoading === false)">
       <h1>Évènements et activités à <span>{{ concertList[0].town }}</span></h1>
       <div class="containerConcerts">
       <figure v-for="concert in concertList" :key="concert.id"
@@ -43,7 +53,7 @@
         <a :href="'/concert/'+concert.path+'/'+concert.id">
             <img :src="concert.image" alt= 'Vignette du concert' />
             <h2>{{ concert.title }}</h2>
-            <p>{{ concert.viewprice }} </p>
+            <p>{{ concert.price.toFixed(2) }} € </p>
           </a>
         </figure>
       </div>
@@ -75,6 +85,34 @@ h1{
 h1 span{
  color:#ae92ed;
 }
+
+.noConcerts{
+  height: 70vh;
+  text-align: center;
+  padding: 20%;
+  color: #fff;
+}
+
+.noConcerts h1{
+  font-size: 70px;
+}
+
+.noConcerts p{
+  font-size: 40px;
+}
+
+.noConcerts button {
+  font-size: 40px;
+  color:#ae92ed;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.noConcerts svg{
+  font-size: 30px;
+}
+
 
 .containerConcerts{
   display: grid;
