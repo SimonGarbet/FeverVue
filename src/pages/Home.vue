@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { defineEmits, defineProps } from 'vue';
 
 const props = defineProps({
-  homeTown: Array
+  selectedTown: Array
 });
 
 const emits = defineEmits();
@@ -32,7 +32,7 @@ function emitOpenModal() {
                         <div>
                                 <h2>Sélection de villes</h2>
                                 <div class="townSelection">
-                                        <figure v-for="town in homeTown" :key="town.id">
+                                        <figure v-for="town in selectedTown" :key="town.id">
                                                 <a :href="'/concert/'+town.path">
                                                 <p>{{ town.title }}</p>
                                                 <img :src="town.image" alt= 'Photographie de la ville concernée' />
@@ -120,7 +120,7 @@ function emitOpenModal() {
     background: #fb78a1;
     text-align: center;
     position: relative;
-    border-radius: 0% 0% 0% 100% / 10% 0% 0% 80%;
+    border-radius: 0% 0% 0% 100% / 10% 0% 0% 79%;
 }
 
 .banner::after{
@@ -177,7 +177,7 @@ h2{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        row-gap: 50px ;
+        row-gap: 60px ;
 }
 
 figure{
@@ -201,7 +201,7 @@ figure a::after{
         height: 305px;
         position: absolute;
         background: #eb0052;
-        transition: all .3s ease-in-out;
+        transition: all .5s ease-in-out;
         border-radius: 30px;
         opacity: 0;
         cursor: pointer;
@@ -210,7 +210,7 @@ figure a::after{
 }
 
 figure a:hover::after{
-        opacity: 0.5;
+        opacity: 0.4;
 }
 
 
@@ -243,7 +243,6 @@ figure img{
         justify-content: center;
         width: 100%;
         margin: 70px 0;
-        cursor: pointer;
 }
 
 .showAllButton button{
@@ -253,6 +252,7 @@ figure img{
         font-size: 18px;
         padding: 10px 20px;
         border-radius: 50px;
+        cursor: pointer;
 }
 
 /* Partie Informations (fond jaune) */

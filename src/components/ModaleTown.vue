@@ -12,7 +12,8 @@ function emitCloseModal() {
 
 const props = defineProps({
   showModal: Boolean,
-  townList: Array
+  townList: Array,
+  selectedTown:Array
 });
 
 
@@ -29,6 +30,14 @@ const props = defineProps({
         <h2>Choisir une ville</h2>
       </div>
         <div class="scrollTown">
+          <h4>Notre sélection de villes</h4>
+          <figure v-for="town in selectedTown" :key="town.id">
+            <a :href="'/concert/'+town.path">
+            <p>{{ town.title }}</p>
+            <img :src="town.image" alt= 'Photographie de la ville concernée' />
+            </a>
+          </figure>
+          <h4>Toutes les villes</h4>
           <figure v-for="town in townList" :key="town.id">
             <a :href="'/concert/'+town.path">
             <p>{{ town.title }}</p>
@@ -83,6 +92,11 @@ const props = defineProps({
   height: 82vh;
   overflow-y: scroll;
   margin-top: 20px;
+}
+
+h4{
+  font-weight: 500;
+  margin: 30px 25px;
 }
 
 figure{

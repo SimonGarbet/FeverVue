@@ -2,8 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import * as VueRouter from 'vue-router'
 import Home from './pages/Home.vue'
+import Town from './pages/Town.vue'
 import Concert from './pages/Concert.vue'
-import Target from './pages/Target.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
@@ -22,13 +22,13 @@ routes: [
     },
     {
     path: '/concert/:town/:id',
-    name: 'Target',
-    component: Target
+    name: 'Concert',
+    component: Concert
     },
     {
     path: '/concert/:town',
-    name: 'concert',
-    component: Concert
+    name: 'town',
+    component: Town
     }
   ]
 })
