@@ -1,14 +1,31 @@
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-import { defineEmits } from 'vue';
+import { defineEmits, defineProps, ref } from 'vue';
+import { useRoute } from 'vue-router';
 
+const props = defineProps({
+  townList: Array,
+});
+
+const route = useRoute();
+const townList = ref(props.townList)
+const filteredTown = ref({})
 const emits = defineEmits();
 
 
 function emitOpenModal() {
   const showModal = true;
   emits('showModalUpdated', showModal); 
+}
+
+function nameTown (){
+  filteredTown.value = townList.value.find((town) =>  town.path === route.params.town)
+  if (filteredTown.value === undefined){
+  return('Selectionnez votre ville')
+  } else {
+  return(filteredTown.value.title)
+  }
 }
 
 </script>
@@ -19,7 +36,7 @@ function emitOpenModal() {
       <nav>
         <div>
         <router-link to="/"><img src="../assets/feverLogo.png" alt="Logo du site fever"></router-link>
-        <button @click="emitOpenModal">Sélectionnez votre ville <font-awesome-icon icon="fa-solid fa-chevron-down" /></button>
+        <button @click="emitOpenModal">{{ route.params.town ?  nameTown() : 'Sélectionnez votre ville' }}<font-awesome-icon icon="fa-solid fa-chevron-down" /></button>
         </div>
         <div class="logosRightHeader">
         <font-awesome-icon icon="fa-regular fa-heart" size="2xl" />

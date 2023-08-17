@@ -24,7 +24,6 @@ function emitOpenModal() {
         const response = await fetch(`http://localhost:5173/data/concerts.json`)
        concertList.value = await response.json()
         concertList.value = concertList.value.filter((concert) =>  concert.path === route.params.town)
-        console.log(concertList.value);
         isLoading.value = false
       } catch (err) {
         console.log('===== error =====', err)

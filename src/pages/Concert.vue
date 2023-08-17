@@ -11,22 +11,31 @@
   const globalPrice = ref(0);
   const isActiveDate = ref(null);
   const isActiveHour = ref(null);
+  const errorFetch = ref(false);
 
   async function fetchConcert() {
       try {
-        isLoading.value = true
-        const response = await fetch(`http://localhost:5173/data/concerts.json`)
-       concertTarget.value = await response.json()
-        concertTarget.value = concertTarget.value.filter((concert) =>  concert.id === route.params.id)
+        isLoading.value = true;
+        const response = await fetch(`http://localhost:5173/data/concerts.json`);
+       concertTarget.value = await response.json();
+       concertTarget.value = concertTarget.value.filter((concert) => concert.path === route.params.town)
+        concertTarget.value = concertTarget.value.filter((concert) =>  concert.id === route.params.id);
+        console.log(concertTarget.value[0])
+        if (concertTarget.value[0] === undefined){
+          errorFetch.value = true
+          isLoading.value = false;
+        } else {
         concertTarget.value = concertTarget.value[0];
         globalPrice.value = concertTarget.value.price;
         isActiveDate.value = concertTarget.value.date[0].id;
         isActiveHour.value = concertTarget.value.date[0].hour[0];
         isLoading.value = false;
+        }
       } catch (err) {
         console.log('===== error =====', err)
-      }
 
+      }
+      console.log(errorFetch.value)
     };
 
 
@@ -63,10 +72,10 @@ function activeHour(hour) {
 
 <template>
   <div class="containerGlobal">
-    <section v-if="(concertTarget === undefined)  && (isLoading === false)">
+    <section class="noConcert" v-if="(errorFetch === true) && (isLoading === false)">
         <h1>Concert supprimé de notre plateforme</h1>
     </section>
-    <section class="concertGlobalView" v-if="(concertTarget !==null) && (isLoading === false)" >
+    <section class="concertGlobalView" v-if="(errorFetch === false) && (isLoading === false)" >
       <div class="leftSideConcert">
 
           <div class="enTeteConcert">
@@ -74,14 +83,14 @@ function activeHour(hour) {
             <h1>{{ concertTarget.title }}</h1>
           </div>
 
-          <p class="summaryConcert"><font-awesome-icon icon="fa-solid fa-star" style="color:#D1C000" /> {{ concertTarget.summary }}</p>
+          <p class="summaryConcert"><font-awesome-icon icon="fa-solid fa-star" style="color:#F0DB4F" /> {{ concertTarget.summary }}</p>
 
           <div class="informationsConcert">
             <h2>Informations</h2>
-            <p><font-awesome-icon icon="fa-solid fa-location-dot" style="color:red"/>{{ concertTarget.information[0].place }}</p>
-            <p><font-awesome-icon icon="fa-solid fa-hourglass-end" style="color:#D1C000"/>{{ concertTarget.information[0].duration }}</p>
-            <p><font-awesome-icon icon="fa-solid fa-child" style="color:green"/>{{ concertTarget.information[0].age }}</p>
-            <p><font-awesome-icon icon="fa-solid fa-wheelchair" style="color:blue"/>{{ concertTarget.information[0].accessibility }}</p>
+            <p><font-awesome-icon icon="fa-solid fa-location-dot" style="color:#ff5925"/>{{ concertTarget.information[0].place }}</p>
+            <p><font-awesome-icon icon="fa-solid fa-hourglass-end" style="color:#F0DB4F"/>{{ concertTarget.information[0].duration }}</p>
+            <p><font-awesome-icon icon="fa-solid fa-child" style="color:#90c53f"/>{{ concertTarget.information[0].age }}</p>
+            <p><font-awesome-icon icon="fa-solid fa-wheelchair" style="color:#15D7F7"/>{{ concertTarget.information[0].accessibility }}</p>
         </div>
 
         <div class="descriptionConcert">
@@ -154,6 +163,7 @@ function activeHour(hour) {
   border-top: 1px solid #2c4751;
 }
 
+
 .containerGlobal::after{
   content: '';
   display: block;
@@ -165,6 +175,22 @@ function activeHour(hour) {
   height: 350px;
   background: #051b23;
   border-radius: 0% 0% 40% 40%/0% 0% 5% 5%;
+ }
+
+ .noConcert{
+  height: 70vh;
+  background: #051b23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .noConcert h1{
+  color: #fff;
+  font-size: 60px;
+  position: relative;
+  z-index: 5;
+  text-align: center;
  }
 
  .concertGlobalView{
@@ -180,7 +206,7 @@ function activeHour(hour) {
  .leftSideConcert{
   position: relative;
   z-index: 3;
-  width: 65%;
+  width: 55%;
  }
 
  .leftSideConcert p {
@@ -203,6 +229,7 @@ function activeHour(hour) {
     border-radius: 20px;
     height: 320px;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   .summaryConcert{
@@ -214,13 +241,25 @@ function activeHour(hour) {
     width: 30px;
   }
 
+  .informationsConcert h2{
+    margin-bottom: 20px;
+  }
+
+  .informationsConcert p{
+    margin-bottom: 10px;
+  }
+
   .descriptionConcert {
     margin: 50px 0;
   }
 
+  .descriptionConcert h2{
+    margin-bottom: 20px;
+  }
+
 
   .rightSideConcert{
-    width: 35%;
+    width: 45%;
     position: relative;
     z-index: 3;
     background: #fff;
@@ -248,31 +287,36 @@ function activeHour(hour) {
     align-items: center;
     gap: 30px;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
   .dateConcert{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     width: 100%;
     border-bottom: solid 1px lightgrey;
-    padding: 30px;
+    padding: 20px 0;
   }
 
 
   .dateConcert div{
     display: flex;
     align-items: center;
+    height: 85px;
+    width: 150px;
   }
+
   .dateConcert button {
     background: none;
-    font-size: 16px;
+    font-size: 14px;
     border: solid 1px lightgrey;
     border-radius: 20px;
     padding: 10px 20px;
     cursor: pointer;
+    height: 80px;
   }
 
   .dateConcert .active button {
@@ -280,19 +324,22 @@ function activeHour(hour) {
   color: white;
   border: none;
   border-radius: 20px 0 0 20px;
+  height: 80px;
   }
 
   .dateConcert .active svg{
     background-color: #0079ca;
     border: none;
     border-radius: 0 20px 20px 0;
-    padding: 12px;
+    padding: 32px 12px 32px 0;
   }
 
 
   .heureConcert{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 20px;
     width: 100%;
     border-bottom: solid 1px lightgrey;
@@ -301,7 +348,6 @@ function activeHour(hour) {
 
   .heureConcert div{
     display: flex;
-    align-items: center;
   }
 
   .heureConcert .active button {
@@ -309,11 +355,12 @@ function activeHour(hour) {
   color: white;
   border: none;
   border-radius: 20px 0 0 20px;
+  padding-right: 10px;
   }
 
   .heureConcert button {
     background: none;
-    font-size: 16px;
+    font-size: 14px;
     border: solid 1px lightgrey;
     border-radius: 20px;
     padding: 10px 30px;
@@ -330,12 +377,13 @@ function activeHour(hour) {
 
   .quantitySelector {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     gap: 30px;
     width: 100%;
     padding-bottom: 20px;
     border-bottom: dashed 1px lightgrey;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .quantitySelector svg{
