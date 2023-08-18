@@ -1,5 +1,4 @@
 # FeverVue
-# Work In Progress
 
 ### Réalisé par [Simon Garbet](https://www.simongarbet.com)
 
@@ -14,7 +13,11 @@
 Cette réalisation est la première réalisation en VueJS pour moi.
 Le but de ce site sera de reprendre le site Fever, site de vente de billets de concert en ligne, dans son visuel : uniquement le front sera réalisé.
 
-Site en production.
+Site terminé :
+
+Vous pouvez naviguez sur 3 pages différentes, la page d'accueil, la page du rescencement par concert (Paris étant la ville la plus représentative), et enfin la page du concert détaillé avec la possibilité d'achat (sans envoi de requête sachant que nous avons là un simple front).
+
+Les pages d'erreurs ainsi que la partie mobile sont également designés. 
 
 
 
