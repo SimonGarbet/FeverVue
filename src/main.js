@@ -4,7 +4,7 @@ import * as VueRouter from 'vue-router'
 import Home from './pages/Home.vue'
 import Town from './pages/Town.vue'
 import Concert from './pages/Concert.vue'
-import ErrorPage from './components/ErrorPage.vue'
+import ErrorPage from './pages/ErrorPage.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';

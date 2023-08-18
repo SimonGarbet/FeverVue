@@ -127,4 +127,28 @@ footer{
     font-size: 15px;
 }
 
+@media (max-width: 750px) {
+
+footer p, footer li{
+    font-size: 14px;
+}
+
+.firstPartFoot{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.paraFoot1{
+    width: 100%;
+}
+
+.paraFoot2{
+    width: 40%;
+}
+
+.paraFoot3{
+    width: 40%;
+}
+}
+
 </style>

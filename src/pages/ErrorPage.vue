@@ -22,7 +22,7 @@ function emitOpenModal() {
   <div >
     <section class="notFound">
         <h1>Erreur 404</h1>
-        <router-link to="/">Revenir à la page <span>d'Accueil</span></router-link>
+        <router-link to="/">Revenir à la page d'accueil</router-link>
         <p>Ou sélectionnez une nouvelle <button @click="emitOpenModal">ville <font-awesome-icon icon="fa-solid fa-chevron-down" /></button></p>
     </section>
 
@@ -52,12 +52,13 @@ function emitOpenModal() {
 
 .notFound h1{
     font-size: 144px;
+    text-align: center;
 }
 
 .notFound a{
     font-size: 30px;
     text-decoration: none;
-    color: #fff;
+    color: #ae92ed;
 }
 
 .notFound p{
@@ -70,6 +71,26 @@ function emitOpenModal() {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 750px) {
+
+.notFound h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.notFound a{
+    font-size: 26px;
+}
+
+.notFound p{
+  font-size: 26px;
+}
+
+.notFound button, .notFound span {
+  font-size: 26px;
+}
 }
 
 

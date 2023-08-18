@@ -72,6 +72,7 @@ function emitOpenModal() {
 .globalContainer{
   background:#06232c;
   border-top: 1px solid #2c4751;
+  min-height: 70vh;
 }
 
 h1{
@@ -152,5 +153,57 @@ figure img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
+
+@media (max-width: 750px) {
+
+h1{
+  font-size: 26px;
+  text-align: center;
+}
+
+.noConcerts h1{
+  font-size: 40px;
+}
+
+.noConcerts{
+  padding: 40% 0;
+  
+}
+
+.noConcerts p{
+  font-size: 20px;
+}
+
+.noConcerts button {
+  font-size: 20px;
+}
+
+.noConcerts svg{
+  font-size: 16px;
+}
+
+
+.containerConcerts{
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+}
+
+figure{
+  width: 80%;
+  margin: auto;
+}
+
+figure h2{
+  font-size: 16px;
+}
+
+figure p {
+  font-size: 14px;
+}
+
+
+}
+
+
 
 </style>

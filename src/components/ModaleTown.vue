@@ -147,5 +147,39 @@ figure p{
   margin: 0;
 }
 
+@media (max-width: 750px) {
+  .modalHeader{
+  width: 350px;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+h4{
+  margin: 10px 25px;
+}
+
+
+figure{
+  height: 70px;
+}
+
+figure p{
+  font-size: 20px;
+}
+
+figure img{
+  height: 70px;
+  filter: brightness(45%);
+}
+
+figure a::after{
+    display: none;
+}
+
+}
+
 
 </style>

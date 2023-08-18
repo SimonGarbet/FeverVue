@@ -174,6 +174,7 @@ function activeHour(hour) {
   width: 100%;
   height: 350px;
   background: #051b23;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 0% 0% 40% 40%/0% 0% 5% 5%;
  }
 
@@ -411,7 +412,106 @@ function activeHour(hour) {
     cursor: pointer;
   }
 
- 
+  @media (max-width: 750px) {
+
+
+
+
+ .noConcert h1{
+  font-size: 30px;
+ }
+
+ .concertGlobalView{
+  flex-direction: column;
+  gap: 0;
+ }
+
+
+ .containerGlobal::after{
+  height: 520px;
+  background: #051b23;
+  border-radius: 0 0 10px 10px;
+ }
+
+
+ .leftSideConcert{
+  width: 100%;
+ }
+
+ .leftSideConcert p {
+  font-size: 14px;
+ }
+
+.enTeteConcert{
+ flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+  .enTeteConcert img{
+
+    border-radius: 20px;
+    height: 320px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .summaryConcert{
+    margin: 100px 0 50px 0;
+  }
+
+
+  .rightSideConcert{
+    width: 100%;
+    margin-bottom: 50px ;
+  }
+
+  .rightSideConcert h2{
+   font-size: 18px;
+  }
+
+  .dateConcert div {
+    height: 40px;
+  }
+  .dateConcert button {
+    height: 40px;
+  }
+
+  .dateConcert .active button {
+  height: 40px;
+  }
+
+  .dateConcert .active svg{
+    padding: 12px 12px 12px 0;
+  }
+
+
+  .heureConcert{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    border-bottom: solid 1px lightgrey;
+    padding-bottom: 30px;
+  }
+  
+
+  .quantitySelector {
+    font-size: 18px;
+  }
+
+  .quantitySelector button{
+    font-size: 22px;
+  }
+
+  .globalPrice{
+    font-size: 20px;
+  }
+  }
 
 
 

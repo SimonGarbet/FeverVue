@@ -104,6 +104,32 @@ nav img{
   padding: 20px 70px;
 }
 
+@media (max-width: 750px) {
 
+  nav{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav button{
+  font-size: 14px;
+  border-right: none;
+}
+
+nav img{
+  height: 20px;
+}
+
+nav svg{
+  font-size: 14px;
+}
+
+.logosRightHeader{
+  padding: 20px 30px;
+}
+.logosRightHeader svg{
+  font-size: 24px;
+}
+
+}
 
 </style>

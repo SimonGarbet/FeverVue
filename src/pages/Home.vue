@@ -364,5 +364,111 @@ figure img{
         z-index: 2;
 }
 
+@media (max-width : 750px){
+        h1{
+        font-size: 35px;
+}
+
+h1 button{
+        font-size: 35px;
+}
+
+h1 button svg{
+        font-size: 28px;
+}
+
+.selectionHome h3{
+        font-size: 20px;
+}
+
+h2{
+       font-size: 20px;
+}
+
+.townSelection{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        row-gap: 20px;
+}
+
+figure{
+        width: 100%;
+        height: 150px;
+}
+
+figure a::after{
+        display:none;
+}
+
+figure img{
+        height: 150px;
+}
+
+.informationsHome {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+}
+
+.informationsHome div{
+        width: 100%;
+}
+
+.informationsHome h3{
+        font-size: 30px;
+}
+
+.informationsHome h4{
+        font-size: 26px;
+}
+
+.informationsHome span{
+        font-size: 26px;
+}
+
+.applicationHome{
+        flex-direction: column;
+        align-items: center ;
+}
+
+.applicationHome::before{
+    bottom: -70px;
+}
+
+.leftSideAppli{
+        width: 90%;
+        align-items: center;
+} 
+
+.leftSideAppli h3{
+        font-size: 24px;
+}
+
+.leftSideAppli p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: center;
+}
+
+.storeButtons img{
+    height: 40px;
+}
+
+.rightSideAppli {
+        width: 90%;
+        height: 402px;
+}
+
+.rightSideAppli img{
+        position: absolute;
+        height: 402px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+
+}
+
 
 </style>

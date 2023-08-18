@@ -12,22 +12,8 @@
             "age" : "Edad : a partir de 8 años. Los menores de 18 años deberán acudir acompañados por un adulto",
             "accessibility" : "Accesibilidad : recinto habilitado para personas en silla de ruedas"
             }],
-        "description" : [
-            "El Mago de Oz - Over the Rainbow (1939)",
-            "Casablanca - As Time Goes By (1942)",
-            "Cantando Bajo la Lluvia - Singin' in the Rain (1952)",
-            "Scooby-Doo - Tema Musical (1969)",
-            "Willy Wonka y la Fábrica de Chocolate - Pure Imagination (1971)",
-            "El Exorcista - Tema Musical (Tubular Bells) (1973)",
-            "Lluvia Púrpura - Purple Rain (1984)",
-            "Batman - Tema Principal (1989)",
-            "El Señor de los Anillos: La Comunidad del Anillo - Suite (2001)",
-            "Harry Potter y el Cáliz de Fuego - Hogwarts’ Anthem (2005)",
-            "Inception - Time (2010)",
-            "Wonder Woman - Suite (2017)",
-            "Ha Nacido una Estrella - Shallow (2018)",
-            "Friends - I’ll Be There for You (1995)"
-        ],
+        "description" :
+            "El Mago de Oz - Over the Rainbow (1939), Casablanca - As Time Goes By (1942), Cantando Bajo la Lluvia - Singin' in the Rain (1952), Scooby-Doo - Tema Musical (1969), Willy Wonka y la Fábrica de Chocolate - Pure Imagination (1971), El Exorcista - Tema Musical (Tubular Bells) (1973), Lluvia Púrpura - Purple Rain (1984), Batman - Tema Principal (1989), El Señor de los Anillos: La Comunidad del Anillo - Suite (2001), Harry Potter y el Cáliz de Fuego - Hogwarts’ Anthem (2005), Inception - Time (2010), Wonder Woman - Suite (2017), Ha Nacido una Estrella - Shallow (2018), Friends - I’ll Be There for You (1995)",      
         "date" : [
             {"id": "20231210", "day" : "10 Dec 2023", "hour" : ["19:00", "21:00"]}
         ],
@@ -399,6 +385,195 @@
             {"id": "20230827", "day" : "27 Aou 2023", "hour" : ["20:00"]}
         ],
         "price" : 38.00
+    },
+
+    {
+        "id" : "5867PAR",
+        "path" : "Paris",
+        "title" : "La Nuit au Musée : une visite inédite du Musée Grévin",
+        "image" : "/data/images/concerts/NuitMusée.avif",
+        "town" :  "Paris",
+        "summary" : "Le musée Grévin fête cette année ses 140 ans en grande pompe car pour la première fois, Michael Jackson, le chameau de Napoléon, une célèbre girafe, le Père Fouras, Kylian Mbappé ou encore Thomas Pesquet vous donnent rendez-vous pour La Nuit au Musée. Entre jeux de lumières, comédiens et animations, viens rendre visite le temps d’une soirée au lieu le plus fréquenté des stars, à n’en pas douter !",
+        "information" : [{
+            "place" : "Lieu : Musée Grévin (Paris 9)",
+            "duration" : "Durée : 1h20",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accessible en fauteuil roulant"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+
+        "date" : [
+            {"id": "20231007", "day" : "10 Oct 2023", "hour" : ["19:30", "20:30"]},
+            {"id": "20231104", "day" : "11 Nov 2023", "hour" : ["19:30", "20:30"]}
+        ],
+        "price" : 50.00
+    },
+
+    {
+        "id" : "4678PAR",
+        "path" : "Paris",
+        "title" : "L'Ecran Pop Cinéma-Karaoké : Grease",
+        "image" : "/data/images/concerts/EcranPop.avif",
+        "town" :  "Paris",
+        "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
+        "information" : [{
+            "place" : "Lieu : Le Grand Rex (Paris 2)",
+            "duration" : "Durée : 4h50 environ pour cette  spéciale ",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette  spéciale"
+            }],
+        "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
+        "date" : [
+            {"id": "20230915", "day" : "15 Sept 2023", "hour" : ["18:00", "21:00"]}
+        ],
+        "price" : 30.00
+    },
+    
+    {
+        "id" : "7468PAR",
+        "path" : "Paris",
+        "title" : "The Empire Strips Back : la parodie burlesque",
+        "image" : "/data/images/concerts/EmpireStrips.avif",
+        "town" :  "Paris",
+        "summary" : "La célèbre parodie burlesque The Empire Strips Back débarque à Paris ! Ce spectacle à grand succès s’est produit à guichet fermé en Amérique, et propulse les personnages emblématiques de la science-fiction dans le monde du burlesque ! Entre danse et défilé, le tout costumé, ne passe surtout pas à côté du show le plus osé de la galaxie !",
+        "information" : [{
+            "place" : "Lieu : Théâtre du Gymnase Marie Bell, 38 Bd de Bonne Nouvelle (Paris 10)",
+            "duration" : "Durée : 1h45",
+            "age" : "Âge requis : 18 ans et plus",
+            "accessibility" : "Accessibilité : Non renseignée"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+        "date" : [
+            {"id": "20231112", "day" : "12 Nov 2023", "hour" : ["15:00", "20:00"]},
+            {"id": "20231113", "day" : "13 Nov 2023", "hour" : ["16:00", "21:00"]}
+        ],
+        "price" : 40.00
+    },
+
+    {
+        "id" : "5867PAR",
+        "path" : "Paris",
+        "title" : "La Nuit au Musée : une visite inédite du Musée Grévin",
+        "image" : "/data/images/concerts/NuitMusée.avif",
+        "town" :  "Paris",
+        "summary" : "Le musée Grévin fête cette année ses 140 ans en grande pompe car pour la première fois, Michael Jackson, le chameau de Napoléon, une célèbre girafe, le Père Fouras, Kylian Mbappé ou encore Thomas Pesquet vous donnent rendez-vous pour La Nuit au Musée. Entre jeux de lumières, comédiens et animations, viens rendre visite le temps d’une soirée au lieu le plus fréquenté des stars, à n’en pas douter !",
+        "information" : [{
+            "place" : "Lieu : Musée Grévin (Paris 9)",
+            "duration" : "Durée : 1h20",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accessible en fauteuil roulant"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+
+        "date" : [
+            {"id": "20231007", "day" : "10 Oct 2023", "hour" : ["19:30", "20:30"]},
+            {"id": "20231104", "day" : "11 Nov 2023", "hour" : ["19:30", "20:30"]}
+        ],
+        "price" : 50.00
+    },
+
+    {
+        "id" : "4678PAR",
+        "path" : "Paris",
+        "title" : "L'Ecran Pop Cinéma-Karaoké : Grease",
+        "image" : "/data/images/concerts/EcranPop.avif",
+        "town" :  "Paris",
+        "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
+        "information" : [{
+            "place" : "Lieu : Le Grand Rex (Paris 2)",
+            "duration" : "Durée : 4h50 environ pour cette  spéciale ",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette  spéciale"
+            }],
+        "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
+        "date" : [
+            {"id": "20230915", "day" : "15 Sept 2023", "hour" : ["18:00", "21:00"]}
+        ],
+        "price" : 30.00
+    },
+    
+    {
+        "id" : "7468PAR",
+        "path" : "Paris",
+        "title" : "The Empire Strips Back : la parodie burlesque",
+        "image" : "/data/images/concerts/EmpireStrips.avif",
+        "town" :  "Paris",
+        "summary" : "La célèbre parodie burlesque The Empire Strips Back débarque à Paris ! Ce spectacle à grand succès s’est produit à guichet fermé en Amérique, et propulse les personnages emblématiques de la science-fiction dans le monde du burlesque ! Entre danse et défilé, le tout costumé, ne passe surtout pas à côté du show le plus osé de la galaxie !",
+        "information" : [{
+            "place" : "Lieu : Théâtre du Gymnase Marie Bell, 38 Bd de Bonne Nouvelle (Paris 10)",
+            "duration" : "Durée : 1h45",
+            "age" : "Âge requis : 18 ans et plus",
+            "accessibility" : "Accessibilité : Non renseignée"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+        "date" : [
+            {"id": "20231112", "day" : "12 Nov 2023", "hour" : ["15:00", "20:00"]},
+            {"id": "20231113", "day" : "13 Nov 2023", "hour" : ["16:00", "21:00"]}
+        ],
+        "price" : 40.00
+    },
+
+    {
+        "id" : "5867PAR",
+        "path" : "Paris",
+        "title" : "La Nuit au Musée : une visite inédite du Musée Grévin",
+        "image" : "/data/images/concerts/NuitMusée.avif",
+        "town" :  "Paris",
+        "summary" : "Le musée Grévin fête cette année ses 140 ans en grande pompe car pour la première fois, Michael Jackson, le chameau de Napoléon, une célèbre girafe, le Père Fouras, Kylian Mbappé ou encore Thomas Pesquet vous donnent rendez-vous pour La Nuit au Musée. Entre jeux de lumières, comédiens et animations, viens rendre visite le temps d’une soirée au lieu le plus fréquenté des stars, à n’en pas douter !",
+        "information" : [{
+            "place" : "Lieu : Musée Grévin (Paris 9)",
+            "duration" : "Durée : 1h20",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accessible en fauteuil roulant"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+
+        "date" : [
+            {"id": "20231007", "day" : "10 Oct 2023", "hour" : ["19:30", "20:30"]},
+            {"id": "20231104", "day" : "11 Nov 2023", "hour" : ["19:30", "20:30"]}
+        ],
+        "price" : 50.00
+    },
+
+    {
+        "id" : "4678PAR",
+        "path" : "Paris",
+        "title" : "L'Ecran Pop Cinéma-Karaoké : Grease",
+        "image" : "/data/images/concerts/EcranPop.avif",
+        "town" :  "Paris",
+        "summary" : "L’Ecran Pop est le 1er cinéma-karaoké en France. Ici, ces œuvres incontournables du cinéma musical s’affichent sur grand écran en version karaoké, dans une ambiance survoltée ! Inspiré de la tradition anglo-saxonne du Sing-Along, chaque séance est accompagnée de nombreuses animations pour s’immerger dans l’ambiance du film et vivre un moment libérateur, joyeux et follement drôle aux côtés de centaines d’autres fans.",
+        "information" : [{
+            "place" : "Lieu : Le Grand Rex (Paris 2)",
+            "duration" : "Durée : 4h50 environ pour cette  spéciale ",
+            "age" : "Âge requis : ouvert à tous",
+            "accessibility" : "Accessibilité : accès PMR pour les billets en catégorie Orchestre uniquement pour cette  spéciale"
+            }],
+        "description" : "L'Ecran Pop Cinéma-Karaoké t'emmène à Rydell High School à la rencontre des T.Birds et des Pink Ladies pour 4h50 de fun ! Redécouvre Grease et prouve tes talents de chanteur avec un karaoké des chansons cultes du film. Inutile de connaître les paroles, elles défilent sur l’écran lors de la diffusion du film ! Un seul mot d’ordre : emporte ta bonne humeur et toute ton énergie pour participer à cette expérience festive et amusante. Animée par un maître de cérémonie, cette soirée s'annonce pleine de surprises avec des goodies, des cadeaux à gagner et même un concours de costumes ! Prépare-toi car le Rock’N’Roll Is Here To Stay ! Prends tes billets pour L'Ecran Pop Cinéma-Karaoké : Grease à Paris ! Depuis sa création en 2017, L’Ecran Pop crée des expériences inédites, festives et participatives dans l’univers des comédies musicales cultes. Aujourd’hui, deux concepts sont proposés pour célébrer tes comédies musicales préférées. Le Cinéma-Karaoké pour vivre une soirée de folie dans l’univers de tes films musicaux favoris et la Dance Party pour apprendre les chorés de plus grandes comédies musicales aux côtés des artistes applaudis sur scène (seulement à Paris, au Théâtre Mogador).",
+        "date" : [
+            {"id": "20230915", "day" : "15 Sept 2023", "hour" : ["18:00", "21:00"]}
+        ],
+        "price" : 30.00
+    },
+    
+    {
+        "id" : "7468PAR",
+        "path" : "Paris",
+        "title" : "The Empire Strips Back : la parodie burlesque",
+        "image" : "/data/images/concerts/EmpireStrips.avif",
+        "town" :  "Paris",
+        "summary" : "La célèbre parodie burlesque The Empire Strips Back débarque à Paris ! Ce spectacle à grand succès s’est produit à guichet fermé en Amérique, et propulse les personnages emblématiques de la science-fiction dans le monde du burlesque ! Entre danse et défilé, le tout costumé, ne passe surtout pas à côté du show le plus osé de la galaxie !",
+        "information" : [{
+            "place" : "Lieu : Théâtre du Gymnase Marie Bell, 38 Bd de Bonne Nouvelle (Paris 10)",
+            "duration" : "Durée : 1h45",
+            "age" : "Âge requis : 18 ans et plus",
+            "accessibility" : "Accessibilité : Non renseignée"
+            }],
+        "description" : "Nous t’attendons du côté obscur de la Force ! The Empire Strips Back (L’Empire contre-attaque se déshabille) met en scène nos personnages préférés de la SF dans un spectacle burlesque entre comédie et séduction. Une parodie aussi séduisante qu’hilarante où chaque détail compte. Prépare-toi à voir des Stormtroopers très sexy, un Boba Fett dangereusement attirant, des Twi'leks alléchants, un Taun Taun irrésistible, un Skywalker plus efféminé que l’original, des droïdes revêches, et bien plus. Alors ? Intriguant, non ? Achète tes billets maintenant pour The Empire Strips Back à Paris !",
+        "date" : [
+            {"id": "20231112", "day" : "12 Nov 2023", "hour" : ["15:00", "20:00"]},
+            {"id": "20231113", "day" : "13 Nov 2023", "hour" : ["16:00", "21:00"]}
+        ],
+        "price" : 40.00
     }
 
 ]
